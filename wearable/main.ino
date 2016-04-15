@@ -1,3 +1,9 @@
+// This #include statement was automatically added by the Particle IDE.
+#include "FastLED/FastLED.h"
+
+// This #include statement was automatically added by the Particle IDE.
+#include "MQTT/MQTT.h"
+
 /***************************************************************************
 # Copyright 2016 IBM
 #
@@ -22,12 +28,6 @@
 char server[] = "<orgid>.messaging.internetofthings.ibmcloud.com";
 char clientId[] = "d:<orgid>:<devicetype>:<deviceid>";
 char token[] = "<token>";
-
-// This #include statement was automatically added by the Particle IDE.
-#include "FastLED/FastLED.h"
-
-// This #include statement was automatically added by the Particle IDE.
-#include "MQTT/MQTT.h"
 
 FASTLED_USING_NAMESPACE;
 
@@ -91,6 +91,6 @@ void animateWipeClean() {
         FastLED.show();
         delay(50);
     }
-    
+
     FastLED.clear();
 }
