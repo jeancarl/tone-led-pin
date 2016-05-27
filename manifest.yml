@@ -14,7 +14,7 @@ declared-services:
     plan:  Shared
   tonepin-toneAnalyzer:
     label: tone_analyzer
-    plan:  beta
+    plan:  standard
   tonepin-iotfService:
     label: iotf-service
     plan:  iotf-service-free
